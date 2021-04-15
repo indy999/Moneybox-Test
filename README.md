@@ -24,3 +24,10 @@ As part of this process however, you should look to refactor some of the code in
 Once you have completed test, zip up your solution, excluding any build artifacts to reduce the size, and email it back to our recruitment team.
 
 Good luck!
+
+## Notes
+
+* I have added unit tests and integration tests using an in memory repository class
+* Ideally I would have liked to have a IMoneyService and move the TransferMoney and WithdrawMoney functionality there.
+* I would consider adding validation to the domain models.
+
