@@ -1,13 +1,20 @@
-﻿using System;
-
-namespace Moneybox.App
+﻿namespace Moneybox.App.Domain
 {
+    using System;
+
     public class User
     {
-        public Guid Id { get; set; }
+        public User(Guid id, string name, string email)
+        {
+            Id = id;
+            Name = name;
+            Email = email;
+        }
 
-        public string Name { get; set; }
+        public Guid Id { get; private set; }
 
-        public string Email { get; set; }
+        public string Name { get; private set; }
+
+        public string Email { get; private set; }
     }
 }

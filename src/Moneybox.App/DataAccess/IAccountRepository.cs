@@ -1,7 +1,8 @@
-﻿using System;
-
-namespace Moneybox.App.DataAccess
+﻿namespace Moneybox.App.DataAccess
 {
+    using Domain;
+    using System;
+
     public interface IAccountRepository
     {
         Account GetAccountById(Guid accountId);
